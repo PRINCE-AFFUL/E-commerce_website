@@ -1,0 +1,5 @@
+2. The area of an arbitrary triangle can be computed using the formula
+area = s(s–a)(s–b)(s–c)
+where a, b, and c are the lengths of the sides, and s is the semiperimeter.
+s = (a+b+c)⁄2
+Write a void function that uses five parameters: three value parameters that provide the lengths of the edges, and two reference parameters that compute the area and perimeter (not the semiperimeter). Make your function robust. Note that not all combinations of a, b, and c produce a triangle. Your function should produce correct results for legal data and reasonable results for illegal combinations.

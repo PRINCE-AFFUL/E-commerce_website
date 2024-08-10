@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Admin.css">
+    <link rel="stylesheet" href="./bootstrap-5.3/css/bootstrap.css">
+</head>
+<body>
+    <form action="Add_products.php" method="POST">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Enter item name</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="item_name">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Insert Item Image</label>
+          <input type="file" class="form-control" id="exampleInputPassword1" name="item_image">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Enter item price</label>
+            <input type="number" class="form-control" id="exampleInputPassword1" name="item_image">
+          </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Describe the item</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" name="item_desrciption">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Item Category</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" name="category">
+          </div>
+       
+     
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+   
+    
+    <script src="./bootstrap-5.3/js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+form{
+    /* border: 5px solid royalblue;
+    width: 25rem;
+    height: 38rem;
+    border-radius: 15px; */
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 5px 5px 5px 5px  royalblue;
+   
+}

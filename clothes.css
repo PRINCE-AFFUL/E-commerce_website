@@ -1,0 +1,14 @@
+.card-group{
+    gap: 1.5rem;
+    margin-top: 5rem;
+    background-color: gray;
+}
+.card-footer{
+    text-align: center;
+}
+.btn{
+    font-size: 25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bolder;
+   font-style: italic;
+}

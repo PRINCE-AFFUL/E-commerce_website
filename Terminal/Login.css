@@ -1,0 +1,35 @@
+form{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    width: 20rem;
+    border: 20px solid black;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px red;
+    margin-left: 40%;
+}
+button{
+    
+    color: white;
+    width: 10rem;
+}
+#btn{
+    background-color: red;
+    border-radius: 30px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.heading{
+    text-decoration: underline;
+}
+body{
+ background-image: url(Capture2.PNG);
+}
+.form-label{
+    text-align: center;
+}

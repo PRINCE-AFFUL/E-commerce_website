@@ -1,0 +1,1 @@
+5. Write a program like that of the previous exercise that converts from meters and centime- ters into feet and inches. Use functions for the subtasks.
